@@ -62,5 +62,10 @@ public class ProductRepository {
 		return product;
 	}
 	
+	//상품 추가하기
+	public void addProduct(Product product) {
+		listOfProducts.add(product);
+	}
+	
 	
 }
